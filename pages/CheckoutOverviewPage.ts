@@ -5,7 +5,7 @@ import SideBarMenu from '../components/SideBarMenu';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CartItem from '../components/CartItem';
-import CheckoutSummary from '../components/checkoutSummary';
+import CheckoutSummary from '../components/CheckoutSummary';
 
 export default class CheckoutOverviewPage extends BasePage {
   path = ROUTES.checkoutOverview.url;
