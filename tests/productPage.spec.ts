@@ -13,6 +13,7 @@ test.describe('Странница товара содержит', () => {
     const product = mainPage.getProductListItem();
     await product.goToProductPage();
     await expect(page).toHaveURL(/inventory-item\.html/);
+    await expect(page.getByTestId('inventory-item')).toHaveCount(1);
     productPage = new ProductPage(page);
   });
 
