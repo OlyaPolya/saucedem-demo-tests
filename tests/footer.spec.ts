@@ -4,9 +4,9 @@ import { SocialNetworkData } from '../types/socialNetwork';
 
 const socialNetworks: SocialNetworkData[] = [
   {
-    network: 'twitter',
-    title: 'Twitter',
-    href: 'https://twitter.com/saucelabs',
+    network: 'x',
+    title: 'X',
+    href: 'https://x.com/saucelabs',
   },
   {
     network: 'facebook',

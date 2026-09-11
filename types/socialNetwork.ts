@@ -1,4 +1,4 @@
-export type SocialNetwork = 'twitter' | 'facebook' | 'linkedin';
+export type SocialNetwork = 'x' | 'facebook' | 'linkedin';
 export type SocialNetworkData = {
   network: SocialNetwork;
   title: string;

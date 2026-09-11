@@ -10,7 +10,7 @@ export default class Footer {
 
   constructor(page: Page) {
     this.footer = page.getByTestId('footer');
-    this.twitter = page.getByTestId('social-twitter');
+    this.twitter = page.getByTestId('social-x');
     this.facebook = page.getByTestId('social-facebook');
     this.linkedin = page.getByTestId('social-linkedin');
     this.policy = page.getByTestId('footer-copy');
@@ -29,7 +29,7 @@ export default class Footer {
 
   async clickSocialLink(socialNetwork: SocialNetwork): Promise<void> {
     const links = {
-      twitter: this.twitter,
+      x: this.twitter,
       facebook: this.facebook,
       linkedin: this.linkedin,
     };
@@ -42,7 +42,7 @@ export default class Footer {
     expectedUrl: string
   ): Promise<void> {
     const links = {
-      twitter: this.twitter,
+      x: this.twitter,
       facebook: this.facebook,
       linkedin: this.linkedin,
     };
@@ -55,7 +55,7 @@ export default class Footer {
     expectedTitle: string
   ): Promise<void> {
     const links = {
-      twitter: this.twitter,
+      x: this.twitter,
       facebook: this.facebook,
       linkedin: this.linkedin,
     };
