@@ -1,5 +1,7 @@
 # Автотесты для демо-проекта saucedemo.com
 
+![CI](https://github.com/OlyaPolya/saucedem-demo-tests/actions/workflows/playwright.yml/badge.svg)
+
 ## Вступление
 
 Автотесты для тестирования функциональности фронтенда демо-проекта SauceDemo с использованием Playwright и TypeScript.
