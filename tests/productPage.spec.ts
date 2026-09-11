@@ -12,6 +12,7 @@ test.describe('Странница товара содержит', () => {
     await mainPage.goToPage();
     const product = mainPage.getProductListItem();
     await product.goToProductPage();
+    await expect(page).toHaveURL(/inventory-item\.html/);
     productPage = new ProductPage(page);
   });
 
