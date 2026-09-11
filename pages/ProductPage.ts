@@ -22,7 +22,7 @@ export default class ProductPage extends BasePage {
     this.sideBarMenu = new SideBarMenu(page);
     this.header = new Header(page);
     this.footer = new Footer(page);
-    this.product = new ProductDetails(page.getByTestId('inventory-container'));
+    this.product = new ProductDetails(page.getByTestId('inventory-item'));
     this.backBtn = page.getByTestId('back-to-products');
   }
 
